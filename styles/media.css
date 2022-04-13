@@ -1,0 +1,262 @@
+@media screen and (max-width: 900px){
+    header{
+        flex-direction: row;
+    }
+    .menu-icon{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    input:last-child{
+        width: 30%;
+    }
+    img{
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 828px){
+    header{
+        flex-direction: row;
+    }
+    .menu-icon{
+        display: block;
+        z-index: 10;
+    }
+    header ul{
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transform: translateX(100%);
+            transition: transform 0.6s ease-in;
+            background-color: #0000008c;
+    }
+    header ul.open{
+        transform: translateX(0);
+    }
+    header ul li{
+        margin: 10px 0;
+    }
+    header ul li a{
+        font-size: 1.6rem;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    input:last-child{
+        width: 30%;
+    }
+    img{
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: row;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    input:last-child{
+        width: 40%;
+    }
+    img{
+        width: 500px;
+        margin-top: 60px;
+        margin-left: 80px;
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 720px) {
+    header ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in;
+        background-color: #0000008c;
+    }
+    header ul.open{
+        transform: translateX(0);
+    }
+    header ul li{
+        margin: 10px 0;
+    }
+    header ul li a{
+        font-size: 1.6rem;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    input:last-child{
+        width: 40%;
+    }
+    img{
+        width: 500px;
+        margin-top: 60px;
+        margin-left: 80px;
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px) {
+    header ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in;
+        background-color: #0000008c;
+    }
+    header ul.open{
+        transform: translateX(0);
+    }
+    header ul li{
+        margin: 10px 0;
+    }
+    header ul li a{
+        font-size: 1.6rem;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    input:last-child{
+        width: 40%;
+    }
+    img{
+        width: 500px;
+        margin-top: 60px;
+        margin-left: 80px;
+        display: none;
+    }
+    ul{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    header ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.6s ease-in;
+        background-color: #0000008c;
+    }
+    header ul.open{
+        transform: translateX(0);
+    }
+    header ul li{
+        margin: 10px 0;
+    }
+    header ul li a{
+        font-size: 1.6rem;
+    }
+    main{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h2:first-child{
+        margin-top: -30px;
+    }
+    form{
+        margin: 0 auto;
+    }
+    input{
+        align-self: center;
+    }
+    input:last-child{
+        width: 40%;
+    }
+    img{
+        width: 500px;
+        margin-top: 60px;
+        margin-left: 80px;
+        display: none;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+    }
+}
